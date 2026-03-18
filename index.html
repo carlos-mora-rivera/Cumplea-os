@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz Cumpleaños Mamá! 🎂</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="contenedor-principal">
+        <div id="pantalla-inicio">
+            <h1 class="instruccion">¡Tienes una sorpresa, Mamá!</h1>
+            <div id="regalo" class="animacion-flotar">🎁</div>
+            <p>Haz clic en el regalo para abrirlo</p>
+        </div>
+
+        <div id="tarjeta" class="oculto">
+            <div class="header-tarjeta">
+                <span class="emoji">🎉</span>
+                <h1>¡Feliz Cumpleaños, Mamá!</h1>
+                <span class="emoji">🎂</span>
+            </div>
+            
+            <div class="cuerpo-tarjeta">
+                <p>Gracias por ser mi guía, mi apoyo y mi mejor ejemplo.</p>
+                <p>Hoy celebramos tu vida y todo el amor que nos das cada día.</p>
+                <p><strong>¡Te quiero muchísimo!</strong></p>
+            </div>
+
+            <button id="btnVerFoto">❤️ Ver nuestra foto ❤️</button>
+            
+            <div id="contenedor-foto" class="oculto">
+                <img src="foto-familiar.jpg" alt="Nuestra familia" id="fotoFamiliar">
+            </div>
+            
+            <br> <button id="btnReiniciar">Ver la sorpresa de nuevo ✨</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
